@@ -34,7 +34,7 @@
 .project-btns .btn{
     padding: 0.5rem 1rem;
 }
-@media screen and (max-width: 740px){
+@media screen and (max-width: 900px){
     .project-container{
         max-width: 90%;
         margin: auto;

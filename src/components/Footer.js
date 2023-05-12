@@ -26,28 +26,32 @@ const Footer = () => {
         </div>
         <div className="right">
           <div className="social">
-              <h4>
-                <FaPhone
-                  size={20}
-                  style={{ color: "#fff", marginRight: "2rem" }}
-                />
-                8807305089
-              </h4>
-              <h4>
-                <FaMailBulk
-                  size={20}
-                  style={{ color: "#fff", marginRight: "2rem" }}
-                />
-                seetharam.ad96@gmail.com
-              </h4>
-            <FaGithub
-              size={20}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={20}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            <h4>
+              <FaPhone
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+              8807305089
+            </h4>
+            <h4>
+              <FaMailBulk
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+              seetharam.ad96@gmail.com
+            </h4>
+            <a href="https://github.com/Seetharaman96">
+              <FaGithub
+                size={25}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/seetharaman-a-893784148/">
+              <FaLinkedin
+                size={25}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>
