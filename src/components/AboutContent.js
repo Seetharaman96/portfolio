@@ -8,7 +8,7 @@ const AboutContent = () => {
       <div className="left">
         <h1>Who Am I</h1>
         <p>
-          I am a FullStack Developer(MERN). I create responsive secured web
+          I am a FullStack Developer(MERN Stack). I create responsive secured web
           application as per the need
         </p>
         <Link to="/contact">

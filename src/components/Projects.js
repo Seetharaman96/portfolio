@@ -11,20 +11,26 @@ const Projects = ({pro}) => {
       />
       <h2 className="project-title">{pro.title}</h2>
       <div className="project-details">
-        <p>{pro.description}</p>
+        {/* <p>{pro.description}</p> */}
         <div className="project-btns">
           <NavLink
             to={pro.view}
             className="btn"
           >
-            VIEW
+            LIVE SITE
           </NavLink>
           <NavLink
-            to={pro.source}
+            to={pro.frontendsource}
             className="btn"
           >
-            SOURCE
+            FRONT-END SOURCE CODE
           </NavLink>
+          {pro.backendsource ? <NavLink
+            to={pro.backendsource}
+            className="btn"
+          >
+            BACK-END SOURCE CODE
+          </NavLink> : null}
         </div>
       </div>
     </div>
