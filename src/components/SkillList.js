@@ -7,7 +7,6 @@ import "react-multi-carousel/lib/styles.css";
 const SkillList = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -37,7 +36,7 @@ const SkillList = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src="https://i.redd.it/k0djb2a8hwr41.png" alt="js" />
+                  <img src="https://cdn.iconscout.com/icon/free/png-256/free-javascript-2752148-2284965.png" alt="js" />
                   <h5>JavaScript</h5>
                 </div>
                 <div className="item">
