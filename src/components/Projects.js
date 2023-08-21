@@ -16,18 +16,21 @@ const Projects = ({pro}) => {
           <NavLink
             to={pro.view}
             className="btn"
+            target="_blank"
           >
             LIVE SITE
           </NavLink>
           <NavLink
             to={pro.frontendsource}
             className="btn"
+            target="_blank"
           >
             FRONT-END SOURCE CODE
           </NavLink>
           {pro.backendsource ? <NavLink
             to={pro.backendsource}
             className="btn"
+            target="_blank"
           >
             BACK-END SOURCE CODE
           </NavLink> : null}

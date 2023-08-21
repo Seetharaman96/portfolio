@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./HeroimgStyles.css";
 
 import React from "react";
@@ -17,8 +17,19 @@ const Heroimg = () => {
         <p>Hello, this is Seetharaman</p>
         <h1>Software Developer (MERN)</h1>
         <div>
-            <Link className="btn" to="/project">Projects</Link>
-            <Link className="btn btn-light" to="/contact">Contact</Link>
+          <Link className="btn" to="/project">
+            Projects
+          </Link>
+          <NavLink
+            className="btn btn-light"
+            target="_blank"
+            to="https://drive.google.com/file/d/17WO4Xh4_lg_6hQbMlsJl7BeSVxV2olV0/view?usp=sharing"
+          >
+            Resume
+          </NavLink>
+          <Link className="btn btn-light" to="/contact">
+            Contact
+          </Link>
         </div>
       </div>
     </div>
