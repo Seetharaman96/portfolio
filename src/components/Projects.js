@@ -20,13 +20,13 @@ const Projects = ({pro}) => {
           >
             LIVE SITE
           </NavLink>
-          <NavLink
+          {pro.frontendsource ? <NavLink
             to={pro.frontendsource}
             className="btn"
             target="_blank"
           >
             FRONT-END SOURCE CODE
-          </NavLink>
+          </NavLink> : null}
           {pro.backendsource ? <NavLink
             to={pro.backendsource}
             className="btn"
