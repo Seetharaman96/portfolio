@@ -49,7 +49,7 @@ const ProjectsData = [
         title: "Hall Booking(Back-end application)",
         description: "loremipsumeskjchdbclkamcjkasbckaca",
         view: "https://hall-booking-nodejs-task2.onrender.com/",
-        frontendsource: "https://github.com/Seetharaman96/Hall-Booking-node-task-2",
+        backendsource: "https://github.com/Seetharaman96/Hall-Booking-node-task-2",
     },
 ];
 
